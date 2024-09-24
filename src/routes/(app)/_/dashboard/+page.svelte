@@ -6,8 +6,8 @@
     // console.log(data)
 
     const user = data?.user
-    const initialView = user?.initview ? user?.initview?.mapcenter : [7.121225412760821, 125.63573983149347]
-    const initialZoom = user?.initview ? user?.initview?.zoomLevel : 5
+    const initialView = user?.initview ? user?.initview?.mapcenter : [18.145851771694467, 3.1640625000000004]
+    const initialZoom = user?.initview ? user?.initview?.zoomLevel : 2
  
     let zoomLevel = null
     let mapcenter = null
