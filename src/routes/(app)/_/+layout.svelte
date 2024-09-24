@@ -18,7 +18,7 @@
 </script>
 <div class="navbar sticky z-10 top-0 bg-neutral text-neutral-content">
    <div class="flex-1"> 
-     <a href="/" class="btn btn-ghost text-xl">Xplored</a>
+     <a href="/_/dashboard" class="btn btn-ghost text-xl">Xplored</a>
    </div>
    <div class="flex-none gap-2"> 
      <div class="dropdown dropdown-end">
