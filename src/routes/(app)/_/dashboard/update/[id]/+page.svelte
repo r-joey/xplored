@@ -77,7 +77,7 @@
 
 
         <div class="form-control mb-3">  
-          <UCImageUploader bind:files={photos}></UCImageUploader> 
+          <UCImageUploader maxFiles={15 - photos.length} bind:files={photos}></UCImageUploader> 
         </div>
 
 

@@ -26,7 +26,7 @@
     <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div class="relative w-12 h-12 rounded-full overflow-hidden border-yellow-400 cursor-pointer" on:click={toggleDropdown}> 
         <div class="w-12 rounded-full">
-          <img src={user?.avatar ? getImageURL(user?.collectionId, user?.id, user?.avatar) : 'https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'} id="user-avatar" alt="" />
+          <img src={user?.avatar ? getImageURL(user?.collectionId, user?.id, user?.avatar) : `https://avatar.iran.liara.run/username?username=${user?.username}`} id="user-avatar" alt="" />
    
       </div>
     </div>
@@ -37,7 +37,7 @@
           <div class="flex items-center justify-center">
             <div class="avatar">
               <div class="w-40 rounded-full">
-                <img src={user?.avatar ? getImageURL(user?.collectionId, user?.id, user?.avatar) : 'https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'} id="user-avatar" alt="" />
+                <img src={user?.avatar ? getImageURL(user?.collectionId, user?.id, user?.avatar) : `https://avatar.iran.liara.run/username?username=${user?.username}`} id="user-avatar" alt="" />
               </div>
             </div>
           </div>

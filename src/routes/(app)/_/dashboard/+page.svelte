@@ -1,6 +1,4 @@
-<script>
-    import { toast } from 'svelte-sonner';
-    import { enhance } from "$app/forms";
+<script> 
     import { Leaflet, Marker, Popup, PlaceCard, InitViewForm  } from "$lib/components";
     export let data 
     // console.log(data)
